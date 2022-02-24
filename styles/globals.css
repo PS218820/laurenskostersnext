@@ -1,16 +1,22 @@
-html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.list {
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
 }
 
-* {
-  box-sizing: border-box;
+.listsection {
+    margin-top: 200px;
+}
+
+.notfound {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
 }

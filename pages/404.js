@@ -10,11 +10,12 @@ const NotFound = () => {
             // router.go(-1);
             router.push('/');
         }, 3000)
-    },[])
+    },)
     return (
         <>
-        <div>
-            <h1>not found.......</h1>
+        <div className='notfound'>
+            <h1>Page not found</h1>
+            <p>Sending back to home!</p>
         </div>
         </>
     );
