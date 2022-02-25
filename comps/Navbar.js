@@ -24,11 +24,6 @@ const Navbar = () => {
                                 <a className="nav-link" href="#">Projects</a>
                             </Link>
                         </li>
-                        <li className="nav-item">
-                            <Link href='/opensourceapi'>
-                                <a className="nav-link" href="#">API</a>
-                            </Link>
-                        </li>
                     </ul>
                 </div>
             </div>

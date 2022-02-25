@@ -12,14 +12,10 @@ export default function Home() {
                     Student in <cite title="Source Title">Software Development</cite>
                 </p>
             </div>
-
             <p className='p-3 fs-4 text-center'>Im Laurens Kosters, 17 years old and I study Software Developer in Eindhoven. I want to grow in my
                 programming skills and want to learn new stuff. After this study I want to study further into
                 programming with the study: Game Development.
             </p>
-            <div className="">
-
-            </div>
             <div className="container">
                 <div className="row">
                     <div className="d-grid gap-2 col-6 mx-auto">
@@ -34,7 +30,7 @@ export default function Home() {
             </div>
             <section className='listsection'>
                 <h2 id='learnmore' className='fw-bolder text-center mt-5 mb-5 fs-1'>Skills</h2>
-                <div className='list'>
+                <div className='list text-center'>
                     <ul className="list-group list-group-flush">
                         <li className="list-group-item">Laravel</li>
                         <li className="list-group-item">Next.js</li>
@@ -48,9 +44,6 @@ export default function Home() {
                     Im still learning so my skills in programming will improve further and the list of languages I know will grow.
                 </p>
             </section>
-
-
-
         </>
     )
 }
